@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OptionPlayground.io</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">OptionPlayground.io</div>
+    <nav>
+      <ul>
+        <li><a href="#sandbox">Strategy Sandbox</a></li>
+        <li><a href="#simulator">Simulator Game</a></li>
+        <li><a href="#arcade">Arcade</a></li>
+        <li><a href="#learning">Learning Hub</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#shop">Shop</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Master the Markets, One Option at a Time</h1>
+    <p>Play. Learn. Trade. All for fun with zero risk!</p>
+    <a href="#sandbox" class="cta-btn">Start Playing</a>
+    <a href="#learning" class="cta-btn">Learn More</a>
+  </section>
+
+  <!-- How It Works -->
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>Step 1: Create a Virtual Portfolio</h3>
+        <p>Start with a fun demo account and build your portfolio.</p>
+      </div>
+      <div class="step">
+        <h3>Step 2: Play & Learn</h3>
+        <p>Explore strategies through interactive games and challenges.</p>
+      </div>
+      <div class="step">
+        <h3>Step 3: Challenge Friends & Learn</h3>
+        <p>Join the community, share strategies, and level up!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Strategy Sandbox -->
+  <section id="sandbox" class="strategy-sandbox">
+    <h2>Create Your Strategy</h2>
+    <div id="strategy-builder">
+      <div id="contract-selector">
+        <button class="contract" id="call-option">Add Call</button>
+        <button class="contract" id="put-option">Add Put</button>
+      </div>
+      <div id="strategy-area">
+        <h3>Your Strategy</h3>
+        <div id="strategy-visual"></div>
+      </div>
+      <div id="payoff-chart">
+        <h3>Payoff Chart</h3>
+        <canvas id="payoff-canvas" width="300" height="200"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Simulator Game -->
+  <section id="simulator" class="simulator">
+    <h2>Simulator Game</h2>
+    <p>Test your options skills and make virtual trades in real market scenarios.</p>
+    <div class="game-interface">
+      <div id="portfolio">
+        <h3>Your Portfolio</h3>
+        <div id="balance">Balance: $100,000</div>
+      </div>
+      <div id="market">
+        <h3>Current Market</h3>
+        <p>Stock Price: $100</p>
+        <button id="buy-call">Buy Call ($10)</button>
+        <button id="buy-put">Buy Put ($8)</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Arcade -->
+  <section id="arcade" class="arcade">
+    <h2>Arcade</h2>
+    <p>Challenge yourself with fun games while learning options trading.</p>
+    <div class="arcade-games">
+      <button class="game" id="guess-greeks">Guess the Greeks</button>
+      <button class="game" id="theta-slayer">Theta Slayer</button>
+    </div>
+  </section>
+
+  <!-- Learning Hub -->
+  <section id="learning" class="learning">
+    <h2>Learning Hub</h2>
+    <p>Learn options trading with interactive tutorials and quizzes!</p>
+    <div class="tutorial">
+      <h3>Introduction to Options</h3>
+      <p>Learn the basics of options trading including Call, Put, Strike Price, and Expiration.</p>
+      <a href="#">Start Tutorial</a>
+    </div>
+    <div class="tutorial">
+      <h3>Advanced Strategies</h3>
+      <p>Explore advanced strategies like Iron Condor, Straddle, and Butterflies.</p>
+      <a href="#">Start Tutorial</a>
+    </div>
+  </section>
+
+  <!-- Community -->
+  <section id="community" class="community">
+    <h2>Community</h2>
+    <p>Join our community to share strategies, discuss trades, and challenge others!</p>
+    <div class="forum">
+      <button class="discussion" id="start-discussion">Start a Discussion</button>
+      <button class="challenge" id="start-challenge">Challenge a Friend</button>
+    </div>
+  </section>
+
+  <!-- Shop -->
+  <section id="shop" class="shop">
+    <h2>Shop</h2>
+    <p>Get exclusive OptionPlayground merchandise and tools!</p>
+    <div class="shop-items">
+      <div class="item">
+        <img src="https://via.placeholder.com/150" alt="OptionPlayground T-shirt">
+        <p>OptionPlayground T-shirt</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/150" alt="Trading Tools Kit">
+        <p>Trading Tools Kit</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 OptionPlayground.io. All rights reserved.</p>
+  </footer>
+</body>
+</html>
