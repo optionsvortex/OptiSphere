@@ -101,4 +101,232 @@ header nav ul li a {
 .strategy-sandbox {
   padding: 50px 20px;
   background-color: white;
-  border-radius: 8px
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#strategy-builder {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#contract-selector button {
+  padding: 15px;
+  background-color: #2d87f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contract-selector button:hover {
+  background-color: #3b98f2;
+}
+
+#strategy-area {
+  width: 60%;
+}
+
+#payoff-chart {
+  width: 30%;
+}
+
+#payoff-canvas {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Simulator Game */
+.simulator {
+  padding: 50px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.simulator h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.game-interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#portfolio {
+  width: 45%;
+}
+
+#market {
+  width: 45%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2d87f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3b98f2;
+}
+
+/* Arcade Section */
+.arcade {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.arcade h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.arcade-games {
+  display: flex;
+  justify-content: center;
+}
+
+.game {
+  margin: 0 10px;
+  padding: 15px;
+  background-color: #2d87f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game:hover {
+  background-color: #3b98f2;
+}
+
+/* Learning Hub */
+.learning {
+  padding: 50px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.learning h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.tutorial {
+  margin-bottom: 30px;
+}
+
+.tutorial h3 {
+  font-size: 1.8rem;
+  color: #2d87f0;
+}
+
+.tutorial a {
+  font-size: 1rem;
+  color: #ff7f00;
+  text-decoration: none;
+}
+
+.tutorial a:hover {
+  text-decoration: underline;
+}
+
+/* Community Section */
+.community {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.community h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.forum {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.discussion, .challenge {
+  padding: 15px 25px;
+  background-color: #2d87f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.discussion:hover, .challenge:hover {
+  background-color: #3b98f2;
+}
+
+/* Shop Section */
+.shop {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shop h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.shop-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #ff7f00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #f9a825;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
